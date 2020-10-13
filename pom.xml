@@ -6,11 +6,19 @@
 
     <groupId>org.atonewell.minecraft</groupId>
     <artifactId>worldlog</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packaging>jar</packaging>
 
     <name>Worldlog Plugin</name>
     <url>https://github.com/atonewell/WorldlogPlugin</url>
+    <description>The WorldLog plugin is a simple Minecraft Bukkit example that will log when players change world</description>
+
+    <licenses>
+        <license>
+            <name>GNU General Public License, Version 3.0</name>
+            <url>https://www.gnu.org/licenses/gpl-3.0</url>
+        </license>
+    </licenses>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -167,5 +175,13 @@
             <url>https://maven.pkg.github.com/atonewell/WorldlogPlugin</url>
         </repository>
     </distributionManagement>
+
+    <developers>
+        <developer>
+            <id>leewalton</id>
+            <name>Lee Walton</name>
+            <url>https://github.com/leewalton</url>
+        </developer>
+    </developers>
 
 </project>
