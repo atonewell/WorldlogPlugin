@@ -1,3 +1,5 @@
 name: WorldLog
 main: org.atonewell.minecraft.worldlog.WorldlogPlugin
 version: ${version}
+api-version: 1.16
+author: atonewell
